@@ -59,3 +59,42 @@ i{
 .hermanos-adyacentes + li{
     background-color: thistle;
 }
+
+.selectores-atributos a[href]{
+    color:orangered
+}
+
+
+/* Aplica estilos a todos los elementos que tengan como atributo el target con blank*/
+.selectores-atributos a[target="_blank"]{
+    font-weight: bold;
+}
+
+
+/* Aplica estilos a todos los atributos que en su href contenga la palabra google en cualquier parte*/
+.selectores-atributos a[href*="google"]{
+    font-size: 22px;
+}
+
+
+/* Aplica estilos a todos los atributos que el href empiece con http:*/
+.selectores-atributos a[href^= "http:" ]{
+    text-decoration: none;
+}
+
+
+/* Aplica estilos a todos los atributos que el href termine con .com:*/
+.selectores-atributos a[href$= ".com" ]{
+   background-color: brown;
+}
+
+/* Aplica estilos al elemento que en su clases contenga la palabra curso*/
+.selectores-atributos a[class~="cursos" ]{
+    color:violet;
+    background-color: steelblue;
+ }
+
+ /* aplica estilos si contiene la palabra y que despues de la palabra en cuestion pueda venir un gion medio*/
+.selectores-atributos a[class|="menu" ]{
+    font-style: italic;
+ }
