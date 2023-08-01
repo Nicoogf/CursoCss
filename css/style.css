@@ -98,3 +98,12 @@ i{
 .selectores-atributos a[class|="menu" ]{
     font-style: italic;
  }
+
+ /* Selector Universal */
+ *{
+    font-family: sans-serif;
+ }
+
+ .selector-universal *{
+    font-size: 24px;
+ }
