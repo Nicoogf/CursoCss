@@ -1,5 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    background-color: black;
+    color: yellowgreen;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    padding: 5px;
+}
 p{
     color:midnightblue
+}
+
+i{
+    color: orange;
 }
 
 
