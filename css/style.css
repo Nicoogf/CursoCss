@@ -42,3 +42,11 @@ i{
 .textwhite{
     color: white;
 }
+
+.hijos-directos > li {
+    background-color: thistle;
+}
+
+.hijos-descendientes b{
+    background-color:  thistle;
+}
