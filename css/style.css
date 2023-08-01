@@ -130,11 +130,7 @@ i{
     background-color: rgb(233, 136, 236);
  } 
 
-
-
-
-
- .menu-pseudoclases a:visited{
+.menu-pseudoclases a:visited{
      color:red;
  }
 
@@ -150,4 +146,47 @@ i{
 
 #temario-css:target{
     background-color: lightgreen;
+}
+
+.lista-pseudo-clases li:first-child{
+    color:green
+}
+
+.lista-pseudo-clases li:last-child{
+    color:pink;
+}
+
+.lista-pseudo-clases li:nth-child(3){
+    color:navy;
+}
+
+.lista-pseudo-clases li:nth-child(4n){
+    font-size: 20px;
+}
+
+.lista-pseudo-clases li:nth-child(3n){
+    font-weight: bold;
+}
+
+.lista-pseudo-clases li:nth-child(even){
+ background-color: yellow;
+}
+
+.lista-pseudo-clases li:nth-child(odd){
+    background-color: orange;
+}
+
+.articulo-pseudoclase p:first-of-type{
+    color: red;
+}
+
+.articulo-pseudoclase p:last-of-type{
+    color: red;
+}
+
+.articulo-pseudoclase p:nth-of-type(3){
+    color: fuchsia;
+}
+.articulo-pseudoclase *:not(p){
+    background-color: beige;
 }
