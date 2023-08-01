@@ -1,1 +1,29 @@
-/* Comentario */ 
+p{
+    color:midnightblue
+}
+
+
+/*los Id se considera un antipatron(mala practica)*/
+#parrafo-dos{
+    background-color: skyblue;
+}
+
+.texto-32{
+    font-size: 32px;
+}
+
+.bg-skyblue{
+    background-color: skyblue;
+}
+
+.texto-20{
+    font-size: 20px;
+}
+
+.bg-steelblue{
+    background-color: steelblue;
+}
+
+.textwhite{
+    color: white;
+}
