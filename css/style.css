@@ -107,3 +107,47 @@ i{
  .selector-universal *{
     font-size: 24px;
  }
+
+
+
+ .form-pseudoclases *:required{
+   border: 1px solid yellow;
+ }
+
+ .form-pseudoclases *:valid{
+    border-color: green;
+ }
+
+ .form-pseudoclases *:invalid{
+    border-color: red;
+ } 
+
+ .form-pseudoclases *:focus{
+    background-color: skyblue;
+ } 
+
+ .form-pseudoclases *:disabled{
+    background-color: rgb(233, 136, 236);
+ } 
+
+
+
+
+
+ .menu-pseudoclases a:visited{
+     color:red;
+ }
+
+ .menu-pseudoclases a:hover{
+    color:orange
+    }
+
+
+.p-pseudoclases:hover{
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+
+#temario-css:target{
+    background-color: lightgreen;
+}
