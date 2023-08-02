@@ -190,3 +190,42 @@ i{
 .articulo-pseudoclase *:not(p){
     background-color: beige;
 }
+
+
+.saga-geminis::before{
+    content: "🏆";
+}
+
+.saga-geminis::after{
+    content: "🐖";
+}
+
+.saga-precio:before{
+    content: "$";
+    font-weight: bold;
+}
+
+.saga-precio::after{
+    content: "Pesos";
+    font-weight: bold;
+}
+
+
+.p-pseudoelementos::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p-pseudoelementos::first-line{
+    color:red;
+}
+
+.p-pseudoelementos::selection{
+    color:rgb(255, 255, 255);
+    background-color:black ;
+}
+
+.input-pseudoelementos::placeholder{
+    color: green;
+    font-style: italic;
+}
