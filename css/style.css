@@ -244,4 +244,33 @@ i{
  width: 300px;
 }
 
-/* */
+/* Especificidad */
+
+blockquote#cita-marco.cita-marco{
+    background-color:lightsteelblue !important ;
+}
+
+blockquote{
+    background-color: burlywood;
+}
+
+#cita-marco{
+    background-color: lightgreen;
+}
+
+
+blockquote.cita-marco{
+    background-color: tomato;
+}
+
+.cita-marco{
+    background-color: cornflowerblue;
+}
+
+blockquote#cita-marco{
+    background-color: lightsalmon;
+}
+
+blockquote#cita-marco.cita-marco{
+    background-color:moccasin !important ;
+}
