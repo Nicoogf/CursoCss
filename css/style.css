@@ -265,6 +265,9 @@ blockquote.cita-marco{
 
 .cita-marco{
     background-color: cornflowerblue;
+    font-size: 32px;
+    border-style: dotted;
+    border-color: red;
 }
 
 blockquote#cita-marco{
@@ -273,4 +276,10 @@ blockquote#cita-marco{
 
 blockquote#cita-marco.cita-marco{
     background-color:moccasin !important ;
+}
+
+
+.cita-marco cite{
+    background-color: pink;
+    border: inherit;
 }
