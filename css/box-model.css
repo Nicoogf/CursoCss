@@ -152,3 +152,15 @@ h1{
     border: thin solid black;
     margin-left: 16px;
 }
+
+
+/* Centrado de cajas*/
+
+.sitio-web{
+    border: thin solid black;
+    background-color: thistle;
+    width: 800px;
+    height: 1000px;
+    padding: 16px;
+    margin: 0 auto;
+}
