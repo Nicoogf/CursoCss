@@ -82,3 +82,38 @@ h1{
     overflow: scroll;
     overflow: auto;;
 }
+
+
+.box-sizing-content{
+    background-color: deepskyblue;
+    box-sizing: content-box;
+    width: 500px;
+    height: 250px;
+    padding:10px;
+    border: thick solid black;
+}
+
+.box-sizing-border{
+    background-color: deepskyblue;
+    box-sizing:border-box;
+    width: 500px;
+    height: 250px;
+    padding:10px;
+    border: thick solid black;
+}
+
+.container-col-3{
+    background: burlywood;
+    margin-top: 20px;
+    width: 606px;
+    height: 300px;
+    
+}
+
+.container-col-3 > *{
+    box-sizing: border-box;
+    width: 200px;
+    border: thin solid black;
+    float: left;    
+    padding: 10px;
+}
