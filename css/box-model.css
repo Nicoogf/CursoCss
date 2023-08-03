@@ -117,3 +117,18 @@ h1{
     float: left;    
     padding: 10px;
 }
+
+/* Float */
+
+.container-float{
+    background-color: cornflowerblue;
+}
+
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
