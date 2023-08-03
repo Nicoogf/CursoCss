@@ -29,3 +29,22 @@ h1{
     padding: 0 40px 20px 50px;
     margin: 100px 50px 30px 0px;
 }
+
+.caja-bloque,
+.caja-linea{
+    background-color: darkcyan;
+    width: 500px;
+    height: 250px;
+    color: white;
+    border: medium solid greenyellow;
+    padding: 16px;  
+}
+
+
+.caja-bloque{
+    margin:32px;
+}
+
+.caja-linea{
+    margin:48px
+}
