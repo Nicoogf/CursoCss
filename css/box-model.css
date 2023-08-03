@@ -72,3 +72,13 @@ h1{
 .caja-hidden{
     visibility: hidden;
 }
+
+.overflow{
+    background-color: darkturquoise;
+    width: 200px;
+    height: 100px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;;
+}
