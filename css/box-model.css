@@ -1,7 +1,31 @@
+body{
+    margin: 0;
+}
+
 h1{
     width: 400px;
     height: 200px;
     border-width: thin;
     border-style: groove;
     border-color: green;
+}
+
+.caja-uno,
+.caja-dos{
+    background-color: chocolate;
+    border: medium solid orange;
+    padding: 10px;
+    margin: 20px;
+    /*Esto Aplica para margin y pading
+    1 valor = aplica a los 4 lados
+    2 valores = aplica el primero arriba y abajo   el segundo derecha izquierda
+    3 valores = aplica el primero arriba           el segundo derecha izquierda  el tercero abajo
+    4 valores = Top  Right  Bottom  Left
+    */
+    padding: 20px 40px ;
+    margin: 40px 20px;
+    padding: 0 40px 20px;
+    margin: 50px 30px 0;
+    padding: 0 40px 20px 50px;
+    margin: 100px 50px 30px 0px;
 }
