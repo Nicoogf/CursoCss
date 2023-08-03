@@ -122,6 +122,7 @@ h1{
 
 .container-float{
     background-color: cornflowerblue;
+    clear: both;
 }
 
 
@@ -131,4 +132,23 @@ h1{
 
 .float-right{
     float: right;
+}
+
+/*Colapso de Margenes verticales */
+
+.margin-colapse{
+    background-color: skyblue;
+}
+
+.margin-colapse section{
+    border: thin solid black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.margin-colapse span{
+    display: inline-block;
+    margin-right: 16px ;
+    border: thin solid black;
+    margin-left: 16px;
 }
