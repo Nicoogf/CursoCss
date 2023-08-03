@@ -43,8 +43,27 @@ h1{
 
 .caja-bloque{
     margin:32px;
+    display: inline;
 }
 
 .caja-linea{
-    margin:48px
+    margin:48px;
+    display:block;
+}
+
+.caja-none,
+.linea-bloque{
+    border: medium solid black;
+    background-color: darkgreen;
+    color: white;
+    width: 600px;
+    height: 300px;
+}
+
+.linea-bloque{
+    display: inline-block;
+}
+
+.caja-none{
+    display: none;
 }
