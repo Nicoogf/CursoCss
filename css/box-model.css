@@ -52,7 +52,8 @@ h1{
 }
 
 .caja-none,
-.linea-bloque{
+.linea-bloque,
+.caja-hidden{
     border: medium solid black;
     background-color: darkgreen;
     color: white;
@@ -66,4 +67,8 @@ h1{
 
 .caja-none{
     display: none;
+}
+
+.caja-hidden{
+    visibility: hidden;
 }
