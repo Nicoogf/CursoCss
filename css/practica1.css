@@ -1,0 +1,45 @@
+body{
+    margin: 0;    
+}
+.header{
+    background-color: mistyrose;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;  
+}
+
+.sticky-top{
+    position: sticky;
+    top:0;
+}
+
+.hero-image{
+    background-color: palegoldenrod;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide{
+    width: 100%;
+    height: 100vh;
+    background-color: paleturquoise;
+}
+
+.slide:nth-child(odd){
+    background-color: violet;
+}
+
+.slide-title{
+    background-color: palegreen;
+    padding: 16px;
+    text-align: center;
+    position: sticky;
+    top:50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
