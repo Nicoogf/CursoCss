@@ -41,3 +41,14 @@
     top:-50px;
     left: -50px;
 }
+
+.fixed{
+    background-color: lightgreen;
+    width: 300px;
+    height: 100px;    
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    top:30px;
+    left: 400px;
+}
