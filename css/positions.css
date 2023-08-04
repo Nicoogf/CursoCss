@@ -52,3 +52,34 @@
     top:30px;
     left: 400px;
 }
+
+.sticky{
+    background-color: lightskyblue;
+    position: sticky;
+    top: 50px;
+}
+
+.section-sticky{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(2, 102, 102);
+}
+
+.z-index1,
+.z-index2{
+    background-color: mediumaquamarine;
+    border: thin solid black;
+    position: relative;
+    width: 200px;
+    height: 200px;   
+}
+
+.z-index1{
+    z-index: 1;
+}
+
+.z-index2{
+    top:-200px;
+    left: 100px;
+    z-index: 2;
+}
