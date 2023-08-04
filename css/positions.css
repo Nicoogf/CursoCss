@@ -7,8 +7,37 @@
 .relative{
     background-color: turquoise;
     position: relative;
+    top:250px;
+    left: 250px;
+    width: 300px;
+}
+
+
+.absolute{
+    background-color: tomato;
+    position: absolute;
+    width: 200px;
+    height: 50px;
     width: 300px;
     height: 50px;
+    bottom: 0;
+    right: 0;
+}
+
+.relative-parent{
+    background-color: khaki;
+    width: 600px;
+    height: 50px;
+    position: absolute;
     top: 50px;
     left: 50px;
+}
+
+.absolute-child{
+    background-color: lightcoral;
+    position: absolute;
+    left: 0;
+    top: 0;
+    top:-50px;
+    left: -50px;
 }
