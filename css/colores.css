@@ -1,0 +1,11 @@
+.color-by-name{
+    background-color: coral;
+    color:rebeccapurple;
+    border:thick solid greenyellow;
+}
+
+.color-by-hex{
+    background-color: #ff6600;
+    color:rebeccapurple;
+    border:thick solid greenyellow;
+}
