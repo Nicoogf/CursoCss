@@ -9,3 +9,9 @@
     color:rebeccapurple;
     border:thick solid greenyellow;
 }
+
+.color-by-rgb{
+    background-color:rgb(255,255,255);
+    color:rgb(0,0,255);
+    border:thick solid  rgb(0,255,0);
+}
