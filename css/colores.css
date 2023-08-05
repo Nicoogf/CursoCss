@@ -21,3 +21,11 @@
     color:hsl(26,50%,90%);
     border:thick solid  hsl(128,25%,75%);
 }
+
+
+.color-transparent-current{
+    background-color: darkmagenta;
+    color: red;
+    background-color: transparent;
+    background-color: currentColor;
+}
