@@ -15,3 +15,9 @@
     color:rgb(0,0,255);
     border:thick solid  rgb(0,255,0);
 }
+
+.color-by-hsl{
+    background-color:hsl(0, 100%, 50%);
+    color:hsl(26,50%,90%);
+    border:thick solid  hsl(128,25%,75%);
+}
