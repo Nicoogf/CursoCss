@@ -29,3 +29,10 @@
     background-color: transparent;
     background-color: currentColor;
 }
+
+.opacity{
+    background-color: orchid;
+    color:navy;
+    border: thick solid black;
+    opacity: 1;
+}
