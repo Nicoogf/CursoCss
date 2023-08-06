@@ -36,3 +36,13 @@ html{
     border:thick solid white;
     font-size: 2em;
 }
+
+.rem{
+    font-size: 2rem;
+}
+
+.rem-div{    
+    background-color: cadetblue;   
+    border: thick solid black;
+
+}
