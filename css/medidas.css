@@ -46,3 +46,23 @@ html{
     border: thick solid black;
 
 }
+
+.exs-div{
+    background-color: salmon;
+    border: thick solid beige;
+
+    font-size: 3ex;
+}
+
+
+.ches{
+    background-color: cadetblue;
+    
+    width: 100px;
+    width: 10ch;
+}
+
+.chess{
+    width: 10ch;
+    background-color: cadetblue;   
+}
