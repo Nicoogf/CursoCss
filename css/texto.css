@@ -19,3 +19,20 @@
 .fuentes{
     font-family: Chalet;
 }
+
+.text{
+ text-decoration: none;
+}
+
+.text-overflow{
+    background-color: antiquewhite;
+    border: thin solid black;
+    width: 50%;
+    text-align: start;
+    text-decoration:none;
+    text-indent: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 2rem;
+}
