@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+
+}
+
+html{
+    
+}
+
+.custom-props-1{
+    --primary-color : gray ;
+    --font-size : 32px ;
+}
+
+
+.custom-props-1{
+   background-color: var(--primary-color);
+  
+}
+
+
+.custom-props-3{
+    font-size: var(--font-size);
+}
+
+h2{
+    background-color: var(--primary-color , grey);
+}
