@@ -1,0 +1,10 @@
+*{
+    font-family: arial;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-variant: small-caps;
+}
