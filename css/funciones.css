@@ -1,13 +1,14 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 :root{
-
+    --color-test : orangered;
 }
 
 html{
-    
+
 }
 
 .custom-props-1{
@@ -28,4 +29,13 @@ html{
 
 h2{
     background-color: var(--primary-color , grey);
+}
+
+.ch-10{
+    --padding-size:2ch; 
+    --num-ch:10ch;
+    font-size: 2rem;
+    background-color:var(--color-test);
+    padding: var(--padding-size);
+    width:calc(var(--num-ch) + var(--padding-size) * 2);
 }
