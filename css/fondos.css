@@ -55,3 +55,14 @@
     background-repeat: no-repeat;
     background-origin: border-box;
 }
+
+
+.bg-atachmen{
+    background-color: aquamarine;
+    background-image: url("../Fv5iHwbXoAQw0Iy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-attachment:fixed;
+}
