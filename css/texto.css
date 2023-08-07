@@ -8,3 +8,14 @@
     line-height: 1.5;
     font-variant: small-caps;
 }
+
+/* Formato Woff*/ 
+
+@font-face{
+    font-family: "Chalet";
+    src: url("../assets/MASTERPLAN___.ttf")format("ttf");
+}
+
+.fuentes{
+    font-family: Chalet;
+}
