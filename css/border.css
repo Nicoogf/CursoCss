@@ -23,3 +23,10 @@
 .border-radius-tres{
     border-radius: 50%;
 }
+
+.outline{
+    outline:5px ;
+    outline-style: dashed;
+    outline-color: chartreuse;
+    
+}
