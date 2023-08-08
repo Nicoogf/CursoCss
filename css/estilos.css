@@ -1,0 +1,16 @@
+:root{
+    --bg-black-primary: #131313 ;
+    --bg-black-primary-alpha: #1313138c ;
+    --bg-black-secondary: #212121 ;
+
+    --font-main-active: #ffffff ;
+    --font-main-off: #9f9f9f ;
+
+    --yellow-main-active: #fec844;
+    --yellow-main-off : #a87a0a; 
+    --yellow-secondary : #da7326 ;
+
+    --animation-default : all .2s ease-out;    
+}
+
+
