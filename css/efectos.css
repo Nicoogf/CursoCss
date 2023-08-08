@@ -57,5 +57,21 @@ img{
 
 .conic-gradient{
     background-image: conic-gradient(red, green,blue);
+}
 
+
+.repeat-gradient-lineal{
+    background-image: repeating-linear-gradient(red 0 5px,rgb(206, 42, 184) 10px 20px,blue 20px 30px);
+}
+
+.repeat-gradient-lineal{
+    background-image: repeating-linear-gradient(90deg ,red 0 5px,green 10px 20px,rgb(244, 248, 14) 20px 30px);
+}
+
+.repeat-gradient-radial{
+    background-image: repeating-radial-gradient(red 0 5px,rgb(65, 131, 230) 10px 20px,blue 20px 30px);
+}
+
+.repeat-gradient-conic{
+    background-image: repeating-conic-gradient(red 0 8%,green 10px 20px,blue 20px 30px);
 }
