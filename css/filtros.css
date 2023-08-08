@@ -17,7 +17,7 @@ img{
     overflow: hidden;
 }
 
-.card{
+.filter{
     width: 600px;
     height: 400px;
     margin-left: auto;
@@ -28,7 +28,7 @@ img{
 }
 
 
-.card img{
+.filter img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -47,5 +47,7 @@ img{
     filter: saturate(0);
 }
 
-
+.filtros-multiples{
+    filter: invert(1) blur(.5rem) opacity(.5);
+}
 
