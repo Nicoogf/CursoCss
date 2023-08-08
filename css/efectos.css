@@ -54,3 +54,8 @@ img{
 .radial-gradient{
     background-image: radial-gradient(circle 4rem ,yellow , blue , darkblue);
 }
+
+.conic-gradient{
+    background-image: conic-gradient(red, green,blue);
+
+}
