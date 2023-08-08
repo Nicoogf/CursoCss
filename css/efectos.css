@@ -73,5 +73,5 @@ img{
 }
 
 .repeat-gradient-conic{
-    background-image: repeating-conic-gradient(red 0 8%,green 10px 20px,blue 20px 30px);
+    background-image: repeating-conic-gradient(red 0 8%,green 8% 16%,rgb(255, 0, 212) 16% 24%);
 }
