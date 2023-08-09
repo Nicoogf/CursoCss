@@ -98,3 +98,31 @@ img{
 .clip-path{
     clip-path: circle();
 }
+
+.shapes{
+    border: thick solid black;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.shapes img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;    
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.shape-1{
+    margin: 4rem 2rem;
+    shape-outside: circle();
+    shape-outside:ellipse()    
+}
