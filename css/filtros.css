@@ -88,3 +88,9 @@ img{
 .blend-mode img{
     mix-blend-mode: color-burn;
 }
+
+.bg-blend-mode{
+    background-image: url("/Fv5iHwbXoAQw0Iy.jpg"), url("../6cc4d59e-7bc0-4582-8dc4-f813197a2a6a.jpg");
+    background-size: cover;
+    background-blend-mode:darken ;
+}
