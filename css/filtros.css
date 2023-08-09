@@ -69,12 +69,22 @@ img{
     position: relative;
 }
 
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .back-drop h4{
     font-size: 1.5rem;
     padding: 1rem;
     color: white;
     background-color: rgba(255,102,255 ,.5);
-    backdrop-filter: grayscale(1);
+    backdrop-filter: blur(.5rem);
    
+}
+
+.blend-mode img{
+    mix-blend-mode: color-burn;
 }
