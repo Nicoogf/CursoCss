@@ -41,3 +41,34 @@ img{
     object-fit: cover;
     object-position: 0 50%;
 }
+
+/* transition */
+.transitions .box{
+    background-color: magenta;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0.5s;
+    transition: border-color 2s linear 1ms;
+    transition: all 2s ease-in-out 250ms;
+
+}
+
+.transitions .box:hover{
+    background-color: cyan;
+    border-color: red;
+    border-radius: 2rem;
+}
+
+.transitions .card{
+    transition:opacity 1s ease-out,
+               border-color 3s steps(5),
+               filter 2s ease-in 1s;
+}
+
+.transitions .card:hover{
+    opacity: .75;
+    border-color: orchid;
+    filter: blur(.15rem);
+    box-shadow: 1rem 1rem 2rem .5rem black;
+}
