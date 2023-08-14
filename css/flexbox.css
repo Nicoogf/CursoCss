@@ -8,17 +8,28 @@
     background-color: #ff0000;
     height: 30vh;
     display: flex;  
-
     flex-direction: row;      
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items:stretch;
+    align-content: flex-start;    
+    width: 1000px;
 }
 
 .items{
-    border: medium solid greenyellow;
-    width: 20%;  
-    height: 20%;
+    border: medium solid greenyellow;    
     background-color: #666;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100px;
+}
+
+.items:nth-child(2){
+    flex-grow: 3;
+}
+
+.items:nth-child(2){
+    flex-grow: 2;
 }
