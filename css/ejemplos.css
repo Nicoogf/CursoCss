@@ -65,6 +65,22 @@ header{
     font-size: 5vh;
 }
 
+.image-flex{
+    width: 400px;
+    height: 400px;
+}
+
+
+.flex-responsive{
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.flex-responsive-item{
+    border: medium solid red;
+    flex: 1 1 320px;
+}
+
 @media screen and (min-width: 1024px){
 
     header{
@@ -79,5 +95,18 @@ header{
 
     .menu li{
         padding: 1rem;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-item{
+        flex: 0 1 50%
+    }
+
+    .flex-order-1{
+        order: 1;
     }
 }
