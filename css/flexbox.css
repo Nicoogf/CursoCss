@@ -21,8 +21,11 @@
     border: medium solid greenyellow;    
     background-color: #666;
     flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: auto;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    
+
+    width: 200px;
 }
 
 
@@ -31,7 +34,7 @@
     /*
     flex-grow: 3;
     */
-     flex-shrink: 1;
+     flex-shrink: 0;
 
 }
 
