@@ -14,22 +14,32 @@
     justify-content: flex-start;
     align-items:stretch;
     align-content: flex-start;    
-    width: 1000px;
+    width: 100%;
 }
 
 .items{
     border: medium solid greenyellow;    
     background-color: #666;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
     flex-basis: auto;
-    width: 100px;
 }
 
+
+
 .items:nth-child(2){
+    /*
     flex-grow: 3;
+    */
+     flex-shrink: 1;
+
 }
 
 .items:nth-child(2){
-    flex-grow: 2;
+    /*
+    flex-grow: 3;
+    */
 }
+
+
+
