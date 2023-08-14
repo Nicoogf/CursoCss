@@ -15,6 +15,7 @@
     align-items:stretch;
     align-content: flex-start;    
     width: 100%;
+    align-self: ;
 }
 
 .items{
@@ -23,9 +24,8 @@
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 100px;
-    
-
     width: 200px;
+    order: 0;
 }
 
 
@@ -34,8 +34,8 @@
     /*
     flex-grow: 3;
     */
-     flex-shrink: 0;
-
+    order: 1;
+   
 }
 
 .items:nth-child(2){
